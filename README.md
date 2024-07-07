@@ -1,30 +1,38 @@
 # Coding Interview University
 
 
-**Required:**
-* A little experience with coding (variables, loops, methods/functions, etc)
-* Patience
-* Time
+## Prerequisites:
 
+* C Programming (To study the Concepts)
+* Java (For Interview)
+
+### Resources
+
+#### C Programming 
+- [C Programming Video Playlist](https://www.youtube.com/watch?v=rLf3jnHxSmU&list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR)
+- [C Programming Book by Kernighan & ritchie](https://colorcomputerarchive.com/repo/Documents/Books/The%20C%20Programming%20Language%20(Kernighan%20Ritchie).pdf)
+- [Data Structures in C/C++](https://www.youtube.com/watch?v=B31LgI4Y4DQ)
+
+#### Java
+- [Head First Java Book](https://drive.uqu.edu.sa/_/fbshareef/files/HeadFisrt_JAVA.pdf)
+- Sedgewick and Wayne:
+    - [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - Free Coursera course that covers the book (taught by the authors!):
+        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
+        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+
+     
+You may not need it, but here are some sites for learning a new language:
+- [Exercism](https://exercism.org/tracks)
+- [Codewars](http://www.codewars.com)
+- [HackerEarth](https://www.hackerearth.com/for-developers/)
+- [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
+- [Programiz PRO Community Challenges)](https://programiz.pro/)
+
+  
 ---
 
 ## Table of Contents
-
-### The Study Plan
-
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [A Note About Video Resources](#a-note-about-video-resources)
-- [Choose a Programming Language](#choose-a-programming-language)
-- [Books for Data Structures and Algorithms](#books-for-data-structures-and-algorithms)
-- [Interview Prep Books](#interview-prep-books)
-- [Don't Make My Mistakes](#dont-make-my-mistakes)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [The Daily Plan](#the-daily-plan)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding Problems](#coding-problems)
 
 ### Topics of Study
 
@@ -133,102 +141,6 @@
 
 ---
 
-
-## Choose a Programming Language
-
-You'll need to choose a programming language for the coding interviews you do,
-but you'll also need to find a language that you can use to study computer science concepts.
-
-Preferably the language would be the same, so that you only need to be proficient in one.
-
-### For this Study Plan
-
-When I did the study plan, I used 2 languages for most of it: C and Python
-
-* C: Very low level. Allows you to deal with pointers and memory allocation/deallocation, so you feel the data structures
-    and algorithms in your bones. In higher-level languages like Python or Java, these are hidden from you. In day-to-day work, that's terrific,
-    but when you're learning how these low-level data structures are built, it's great to feel close to the metal.
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
-    - [The C Programming Language, 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - You don't need to go super deep in the book (or even finish it). Just get to where you're comfortable reading and writing in C.
-* Python: Modern and very expressive, I learned it because it's just super useful and also allows me to write less code in an interview.
-
-This is my preference. You do what you like, of course.
-
-You may not need it, but here are some sites for learning a new language:
-- [Exercism](https://exercism.org/tracks)
-- [Codewars](http://www.codewars.com)
-- [HackerEarth](https://www.hackerearth.com/for-developers/)
-- [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
-- [Programiz PRO Community Challenges)](https://programiz.pro/)
-
-### For your Coding Interview
-
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
-
-- C++
-- Java
-- Python
-
-You could also use these, but read around first. There may be caveats:
-
-- JavaScript
-- Ruby
-
-Here is an article I wrote about choosing a language for the interview:
-[Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
-This is the original article my post was based on: [Choosing a Programming Language for Interviews](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
-
-You need to be very comfortable in the language and be knowledgeable.
-
-Read more about choices:
-- [Choose the Right Language for Your Coding Interview](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
-
-[See language-specific resources here](programming-language-resources.md)
-
-## Books for Data Structures and Algorithms
-
-This book will form your foundation for computer science.
-
-Just choose one, in a language that you will be comfortable with. You'll be doing a lot of reading and coding.
-
-### C
-
-- [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
-    - Fundamentals, Data Structures, Sorting, Searching, and Graph Algorithms
-
-### Python
-
-- [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
-    - Pythonic code
-    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
-
-### Java
-
-Your choice:
-
-- Goodrich, Tamassia, Goldwasser
-    - [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-- Sedgewick and Wayne:
-    - [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - Free Coursera course that covers the book (taught by the authors!):
-        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
-        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
-
-### C++
-
-Your choice:
-
-- Goodrich, Tamassia, and Mount
-    - [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
-- Sedgewick and Wayne
-    - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-    - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
-
 ## Interview Prep Books
 
 You don't need to buy a bunch of these. Honestly "Cracking the Coding Interview" is probably enough,
@@ -252,45 +164,6 @@ Choose one:
 - [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
         - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
-## Don't Make My Mistakes
-
-This list grew over many months, and yes, it got out of hand.
-
-Here are some mistakes I made so you'll have a better experience. And you'll save months of time.
-
-### 3. Do Coding Interview Questions While You're Learning
-
-THIS IS VERY IMPORTANT.
-
-Start doing coding interview questions while you're learning data structures and algorithms.
-
-You need to apply what you're learning to solve problems, or you'll forget. I made this mistake.
-
-Once you've learned a topic, and feel somewhat comfortable with it, for example, **linked lists**:
-1. Open one of the [coding interview books](#interview-prep-books) (or coding problem websites, listed below)
-1. Do 2 or 3 questions regarding linked lists.
-1. Move on to the next learning topic.
-1. Later, go back and do another 2 or 3 linked list problems.
-1. Do this with each new topic you learn.
-
-**Keep doing problems while you're learning all this stuff, not after.**
-
-You're not being hired for knowledge, but how you apply the knowledge.
-
-There are many resources for this, listed below. Keep going.
-
-### 4. Focus
-
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music
-without lyrics and you'll be able to focus pretty well.
-
-## What you won't see covered
-
-These are prevalent technologies but not part of this study plan:
-
-- Javascript
-- HTML, CSS, and other front-end technologies
-- SQL
 
 ## The Daily Plan
 
@@ -364,6 +237,8 @@ Challenge/Practice sites:
     - Created by Google engineers, this is also an excellent resource to hone your skills.
 - [Project Euler](https://projecteuler.net/)
     - very math-focused, and not really suited for coding interviews
+
+---
 
 ## Let's Get Started
 
